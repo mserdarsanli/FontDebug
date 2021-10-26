@@ -26,10 +26,10 @@ rule embed
 
 rule compile
     depfile = $out.d
-    command = g++ -MD -MF $out.d -c -o $out -O3 $in $ccflags
+    command = g++ -std=c++17 -MD -MF $out.d -c -o $out -O3 $in $ccflags
 
 rule link
-    command = g++ -o $out $in $linkflags
+    command = g++ -o $out $in -lstdc++fs $linkflags
 
 
 build out/resources/icon_embed.cpp: embed resources/app_icon.png
