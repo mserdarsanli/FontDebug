@@ -9,7 +9,7 @@ A utility for exploring FreeType, example screenshot below:
 Install requirement dependencies (example for Debian/Ubuntu):
 
 ```shell
-apt-get install cmake libglib2.0-dev libglibmm-2.4-dev libgtkmm-3.0-dev libgtk-3-dev libfreetype-dev libicu-dev  
+apt-get install cmake libglib2.0-dev libglibmm-2.4-dev libgtkmm-3.0-dev libgtk-3-dev libfreetype-dev libicu-dev
 ```
 
 Then run these commands:
