@@ -36,4 +36,5 @@ target_link_libraries(fontdebug
 	PkgConfig::GTK3
 	Freetype::Freetype
 	ICU::uc
+	stdc++fs
 	)
