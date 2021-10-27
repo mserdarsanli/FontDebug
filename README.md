@@ -6,14 +6,20 @@ A utility for exploring FreeType, example screenshot below:
 
 ## Building
 
-First `cd` into directory, then:
+Install requirement dependencies (example for Debian/Ubuntu):
 
-```
-./configure.py
-ninja
+```shell
+apt-get install cmake libglib2.0-dev libglibmm-2.4-dev libgtkmm-3.0-dev libgtk-3-dev libfreetype-dev libicu-dev  
 ```
 
-Output will be at `out/fontdebug`.
+Then run these commands:
+
+```shell
+cmake -B build
+cmake --build build
+```
+
+Output will be at `build/fontdebug`.
 
 ## Copying
 
